@@ -108,3 +108,21 @@ body {
   font-weight: 500;
   text-align: left;
 }
+
+@media (min-width: 768px) {
+  .recipe__container {
+    max-width: 500px;
+    margin: 2.5rem auto;
+    border-radius: 20px;
+    padding-top: 1.5rem;
+  }
+
+  .recipe__image {
+    max-width: 90%;
+    border-radius: 5px;
+  }
+
+  .container__elements {
+    margin: 0 5%;
+  }
+}
