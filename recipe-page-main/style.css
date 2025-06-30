@@ -64,9 +64,22 @@ body {
 .preparation__container {
   background-color: var(--rose-50);
   border-radius: 10px;
+  padding: 1rem 1rem;
 }
 
 .preparation__title {
   color: var(--rose-800);
   padding: 0 10px;
+}
+
+.recipe__list {
+  line-height: 2;
+}
+
+.recipe__list--item {
+  padding: 0 2rem;
+}
+
+.bullet-rose::marker {
+  color: var(--rose-800);
 }
